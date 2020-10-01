@@ -17,4 +17,20 @@ Genres are classified as shown below:
 - <b>Bollywood (Rap)</b>: New kind of Bollywood music, inspired from west. 
 
 ## Dataset Features: 
-<TO BE ADDED>
+TO BE ADDED:
+
+## Data modeling and feature ectraction.
+
+We have curated a list of features that needs to be extracted for our Model.
+
+- Zero Cross Rate
+- Energy
+- Entropy of Energy
+- Spectral Centroid
+- Spectral Spread
+- Spectral Entropy
+- Spectral Flux
+- Spectral Roll off
+- MFCC
+- Chroma Vector
+- Chroma Deviation
