@@ -1,6 +1,6 @@
-# GACMIC
+# GACMIS
 
-Indian Songs Classification Datasets and Machine learning models. GACMIC stands for: (Genre Automated Classification using Machine Learning of Indian Songs).
+Indian Songs Classification Datasets and Machine learning models. GACMIS stands for: (Genre Automated Classification using Machine Learning of Indian Songs).
 
 ## Dataset Details.
 
