@@ -34,3 +34,4 @@ We have curated a list of features that needs to be extracted for our Model.
 - MFCC
 - Chroma Vector
 - Chroma Deviation
+- pitch
