@@ -1,6 +1,6 @@
 # GACMIS
 
-Indian Songs Classification Datasets and Machine learning models. GACMIS stands for: (Genre Automated Classification using Machine Learning of Indian Songs).
+Indian Songs Classification Datasets and Machine learning models. GACMIS stands for: (Genre Automated Classification using Machine Learning of Indian Songs). Our main goal through this project is to handle the mis classification problem Indian music genre on popular streaming applications. There is lots of work done for western music classification but very little for Indian music.
 
 ## Dataset Details.
 
@@ -16,8 +16,6 @@ Genres are classified as shown below:
 - <b>Bollywood (Romantic)</b>: Bollywood pictures and albums romantic songs.
 - <b>Bollywood (Rap)</b>: New kind of Bollywood music, inspired from west. 
 
-## Dataset Features: 
-TO BE ADDED:
 
 ## Data modeling and feature ectraction.
 
@@ -35,3 +33,9 @@ We have curated a list of features that needs to be extracted for our Model.
 - Chroma Vector
 - Chroma Deviation
 - pitch
+
+Description of these features cn be found on our manuscipt. Manuscript is present in manuscript folder.
+
+## Data Preparation
+
+We have done deep data analysis of the songs that we got. As we have created our dataset from scratch, We tried to make sure that our data integrity is strong. We have created list of songs, cross verified them from several sources, then incluced them. We also tried to make sure that classes are not very much imbalanced. We have extracted features with the help of Librosa and pyaudio libraries. We also make sure that our dataset is free of 30 sec anamoly, hence included whole song instead of small fragments.
