@@ -21,18 +21,18 @@ Genres are classified as shown below:
 
 We have curated a list of features that needs to be extracted for our Model.
 
-- Zero Cross Rate
-- Energy
-- Entropy of Energy
+- Chroma stft
+- Onset strength
+- Chroma cqt
 - Spectral Centroid
-- Spectral Spread
-- Spectral Entropy
-- Spectral Flux
+- Mel spectrogram
+- Spectral Contrast
+- Spectral bandwidth
 - Spectral Roll off
 - MFCC
-- Chroma Vector
-- Chroma Deviation
-- pitch
+- Chroma cens
+- Zero Crossing rate
+- Tonnetz
 
 Description of these features cn be found on our manuscipt. Manuscript is present in manuscript folder.
 
