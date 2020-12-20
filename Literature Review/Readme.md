@@ -1,1 +1,1 @@
-This folder contains sample papers
+This folder contains some good papers on this problem, which are part of our literature review. If you are new to this problem, we recommend you to study these papers once. They are good starting point
