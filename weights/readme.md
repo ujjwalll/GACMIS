@@ -1,1 +1,5 @@
 # All weights here
+1. Best_LightGBM.pkl --> represents the Light GBM model where input features are onset_strength, chroma_stft, chroma_cqt, chroma_cens, melspectrogram, spectral_centroid, spectral_contrast, tonnetz and zero_crossing_rate.
+2. kNN.pickle --> represents K_Nearest_Neighbour (K = 7) pipeline (with StandardScaler) model where input features are onset_strength, chroma_stft, chroma_cqt, chroma_cens, melspectrogram, spectral_centroid, spectral_bandwidth, spectral_contrast and zero_crossing_rate.
+3. svm.pickle --> represents the pipeline(PCA(9), StandardScaler(), SVC(C = 5, gamma='auto', kernel = "rbf", break_ties = True)) where input features are onset_strength, chroma_stft, chroma_cqt, chroma_cens, melspectrogram, spectral_centroid, spectral_contrast, tonnetz, zero_crossing_rate
+4. Gradient_boosting.pickle --> represents GradientBoostingClassifier(n_estimators = 100) where input features are onset_strength, chroma_stft, chroma_cqt, melspectrogram, spectral_bandwidth, spectral_contrast, spectral_rolloff, zero_crossing_rate
