@@ -39,3 +39,26 @@ Description of these features cn be found on our manuscipt. Manuscript is presen
 ## Data Preparation
 
 We have done deep data analysis of the songs that we got. As we have created our dataset from scratch, We tried to make sure that our data integrity is strong. We have created list of songs, cross verified them from several sources, then incluced them. We also tried to make sure that classes are not very much imbalanced. We have extracted features with the help of Librosa and pyaudio libraries. We also make sure that our dataset is free of 30 sec anamoly, hence included whole song instead of small fragments.
+
+## Models we trained
+
+We have trained several models on our dataset, here we are presenting Top 5 classifiers which gives us best results.
+
+- SVM (Support Vector Machine)
+- Gradient Boost
+- Light GBM 
+- Neural Network
+- kNN (k nearest neighbours)
+
+We have taken Logistic regression as our baseline model which gives us 69.09 % accuracy after hyperparameter tuning.
+
+## Weights
+
+All the weights are saved under weights model, as we have also applied many permutations to find best features, we haven't uploaded all the models weight, just the best model weights of each model.
+
+
+## Literature Review.
+
+If you want to learn more about this problem, we have curated few good papers to read to get a start, you can find them in Literature Review Folder.
+
+Disclaimer: Data and Songs scrapped only and only for research purposes. Any mal distribution/commercial distribution of this content is illegal. Please make sure you are not using any data or song for any non research purpose.
